@@ -6,3 +6,11 @@ This is an unofficial implementation of Complex-YOLO: Real-time 3D Object Detect
 
 
 Point Cloud Preprocessing is based on:https://github.com/skyhehe123/VoxelNet-pytorch
+
+
+# Data Preparation
+
+Download the 3D KITTI detection dataset.
+Camera calibration matrices of object data set (16 MB)
+Training labels of object data set (5 MB)
+Velodyne point clouds (29 GB)
