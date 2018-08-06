@@ -17,3 +17,8 @@ Camera calibration matrices of object data set (16 MB)
 Training labels of object data set (5 MB)
 
 Velodyne point clouds (29 GB)
+
+
+# Train
+
+python3 main.py
