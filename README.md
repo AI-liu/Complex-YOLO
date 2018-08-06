@@ -22,3 +22,6 @@ Velodyne point clouds (29 GB)
 # Train
 
 python3 main.py
+
+
+
