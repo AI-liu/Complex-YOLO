@@ -26,4 +26,4 @@ python3 main.py
 
 # Result
 
-![](http://www.baidu.com/img/bdlogo.gif) 
+![](https://github.com/AI-liu/Complex-YOLO/blob/master/predictions%20(3rd%20copy).png) 
