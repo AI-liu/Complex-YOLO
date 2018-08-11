@@ -24,6 +24,7 @@ Velodyne point clouds (29 GB)
 
 python3 main.py
 
+trained model(using DarkNet) download link :https://pan.baidu.com/s/13S_ZHx8OlYvgNEqSG2qYNw 
 
 # Result
 
