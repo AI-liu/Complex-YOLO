@@ -26,4 +26,9 @@ python3 main.py
 
 # Result
 
-![](https://github.com/AI-liu/Complex-YOLO/blob/master/predictions%20(3rd%20copy).png) 
+![]( Complex-YOLO/results/1.png)
+![]( Complex-YOLO/results/2.png)
+![]( Complex-YOLO/results/3.png)
+![]( Complex-YOLO/results/4.png)
+![]( Complex-YOLO/results/5.png)
+![]( Complex-YOLO/results/6.png)
