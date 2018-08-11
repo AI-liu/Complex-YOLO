@@ -6,6 +6,7 @@ This is an unofficial implementation of Complex-YOLO: Real-time 3D Object Detect
 
 
 Point Cloud Preprocessing is based on:https://github.com/skyhehe123/VoxelNet-pytorch
+                                      https://github.com/dongwoohhh/MV3D-Pytorch
 
 
 # Data Preparation
