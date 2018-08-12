@@ -29,11 +29,8 @@ trained model(using DarkNet) download link :https://pan.baidu.com/s/1yeU3Q-Oyozv
 # Result
 
 ![](https://github.com/AI-liu/Complex-YOLO/blob/master/results/1.png)
-
 ![](https://github.com/AI-liu/Complex-YOLO/blob/master/results/2.png)
-
 ![](https://github.com/AI-liu/Complex-YOLO/blob/master/results/3.png)
-
 ![](https://github.com/AI-liu/Complex-YOLO/blob/master/results/4.png)
 ![](https://github.com/AI-liu/Complex-YOLO/blob/master/results/5.png)
 ![](https://github.com/AI-liu/Complex-YOLO/blob/master/results/6.png)
