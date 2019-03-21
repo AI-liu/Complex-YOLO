@@ -12,14 +12,14 @@ from region_loss import RegionLoss
 batch_size=12
 
 # dataset
-dataset=KittiDataset(root='/home/yuliu/KITTI',set='train')
-data_loader = data.DataLoader(dataset, batch_size, shuffle=True, pin_memory=False)
+dataset=KittiDataset(root='/home/ai/KITTI',set='train')
+data_loader = data.DataLoader(dataset, batch_size, shuffle=True)
 
 model = ComplexYOLO()
 model.cuda()
 
 # define optimizer
-optimizer = optim.SGD(model.parameters(), lr=1e-5 ,momentum = 0.9 , weight_decay = 0.0005)
+optimizer = optim.Adam(model.parameters())
 
 # define loss function
 region_loss = RegionLoss(num_classes=8, num_anchors=5)
@@ -27,17 +27,6 @@ region_loss = RegionLoss(num_classes=8, num_anchors=5)
 
 
 for epoch in range(200):
-
-
-   for group in optimizer.param_groups:
-       if(epoch>=4 & epoch<80):
-           group['lr'] = 1e-4
-       if(epoch>=80 & epoch<160):
-           group['lr'] = 1e-5
-       if(epoch>=160):
-           group['lr'] = 1e-6
-
-
 
    for batch_idx, (rgb_map, target) in enumerate(data_loader):          
           optimizer.zero_grad()
@@ -49,5 +38,5 @@ for epoch in range(200):
           loss.backward()
           optimizer.step()
 
-   if (epoch % 10 == 0):
+   if (epoch % 2 == 0):
        torch.save(model, "ComplexYOLO_epoch"+str(epoch))

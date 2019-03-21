@@ -10,7 +10,6 @@ import math
 from utils import *
 
 
-
 class KittiDataset(torch.utils.data.Dataset):
 
     def __init__(self, root='/home/yuliu/KITTI',set='train',type='velodyne_train'):
